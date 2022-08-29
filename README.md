@@ -8,9 +8,8 @@
 
 ### This repository is SPI Communication between the Two MCU
 
-Sometimes MCU does not have enough number of Hardware UART.
-In such cases, there is a solution to used Software UART. Since it is implemented in software, every GPIO pin can be used.
-In this case, by pressing the start key, the first micro starts sending data to the second micro. The second micro increases the count if the received data is correct and display on LCD. The LEDs connected to the second micro display the current number in binary form.
+Keyboards are used as input. The each MCU With SPI Protocol Send data to other MCU and display Received data on LCD.
+Expected The first LCD to show the data of the second keyboard and the second LCD to show the data of the first keyboard.
 
 ###### This repository contains Source Files & Proteus Circuit Simulation Files. 
 
